@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bot-trucking",
+  "version": "1.0.0",
+  "description": "Production-ready Telegram bot for collecting trucking accident details, saving structured JSON, generating professional PDF reports (with photos), and notifying an admin automatically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "studio": "remotion studio remotion/index.ts",
+    "render": "remotion render remotion/index.ts VerticalStarter out/vertical-starter.mp4",
+    "compositions": "remotion compositions remotion/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.467",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "remotion": "^4.0.467"
+  }
+}
