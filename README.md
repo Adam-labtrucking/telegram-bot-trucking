@@ -81,3 +81,25 @@ python bot.py
 - Run behind a process manager (e.g. `systemd`, `supervisord`, or Docker restart policy).
 - Persist `reports/`, `pdfs/`, and `photos/` using a mounted volume or persistent disk.
 - Rotate logs externally if needed.
+
+## Remotion video project
+
+A Remotion project has been initialized in this repository with a starter **9:16 vertical composition** for TikTok/Reels.
+
+### Files
+- `remotion/index.ts` - Remotion entry point
+- `remotion/Root.tsx` - Composition registration
+- `remotion/VerticalStarter.tsx` - Vertical starter scene
+
+### Run
+```bash
+npm run studio
+```
+
+### Render the starter video
+```bash
+npm run render
+```
+
+Output path:
+- `out/vertical-starter.mp4`
