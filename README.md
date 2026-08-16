@@ -82,6 +82,13 @@ python bot.py
 - Persist `reports/`, `pdfs/`, and `photos/` using a mounted volume or persistent disk.
 - Rotate logs externally if needed.
 
+## Second Brain
+
+All life and business admin — contracts, lease agreements, insurance, permits,
+notes, PDFs — lives in [`second-brain/`](second-brain/README.md). Drop anything
+into `second-brain/00-inbox/` and file it (or ask Claude to) per the rules in
+that folder's README. The master catalog is `second-brain/INDEX.md`.
+
 ## Remotion video project
 
 A Remotion project has been initialized in this repository with a starter **9:16 vertical composition** for TikTok/Reels.
